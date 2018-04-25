@@ -1,0 +1,33 @@
+## To review edits and craft a commit transactions
+
+# To list the tree status.
+# To list all new and modified files to be commited.
+
+$ git status
+
+########
+
+# To show file differences not yet staged
+$ git diff
+
+########
+
+# To snapshot the file in preparation for versioning
+$ git add <file>
+
+#######
+
+# To show file DIFFERENCES between staging and the last file version
+$ git diff --staged
+
+#######
+
+# To unstage a particular file, BUT  preserve its contents
+$ git reset <file>
+
+# To record the file snapshot permanently in the version history
+$ git commit -m "<descriptive message>"
+
+# Example
+$ git commit -m "First commit."
+

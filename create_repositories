@@ -1,0 +1,15 @@
+## Start a new repository or obtain one from an existing URL
+
+##################################################################
+# To create a new local repository with the specified name
+$ git init <project-name>
+
+# Example:
+$ git init --bare my_first_repository.git
+
+###################################################################
+# To download a project and download its entire version history
+$ git clone <url / path to the repository>
+
+# Example
+$ git clone ~/Repositories/my_first_repository.git

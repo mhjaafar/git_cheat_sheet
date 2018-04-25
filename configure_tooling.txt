@@ -1,0 +1,18 @@
+## Configure user information for all local repository
+
+###################
+
+# To set the name to be attached to your commit transactions
+$ git config --global user.name "<name>"
+
+# To set the email to be attached to your commit transactions
+$ git config --global user.email "<email>"
+
+# Example
+$ git config --global user.name "Uchiha Madara"
+$ git config --global user.email "uchiha.madara@konohagakure.jp"
+
+##################
+
+# To enable helpful colorization  of command line output
+$ git config --global color.ui auto
