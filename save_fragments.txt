@@ -1,0 +1,25 @@
+## To shelve and restore incomplete changes.
+
+#############
+
+# To temporarily store all modified tracked files.
+# To stash the changes in the DIRTY working directory away.
+$ git stash
+
+#############
+
+# To restore the most recently stashed files.
+
+$ git stash pop
+
+############
+
+# To list all stashed changesets
+
+$ git stash list
+
+###########
+
+# To discard the most recently stashed changeset
+
+$ git stash drop

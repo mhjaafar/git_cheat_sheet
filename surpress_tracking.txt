@@ -1,0 +1,11 @@
+## Exclude temporary files and paths
+
+#########
+
+# Use .gitignore
+
+#########
+
+# To list all ignored files in the project
+
+$ git ls-files --other --ignored --exclude-standard

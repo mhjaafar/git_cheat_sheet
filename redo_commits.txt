@@ -1,0 +1,14 @@
+## To erase mistakes and craft replacement history
+
+################
+
+# To undo all commits after <commit>, preserving the changes locally
+
+$ git reset <commit>
+
+##############
+
+# To discard all history AND
+# change back to a specified commit
+
+$ git reset --hard <commit>

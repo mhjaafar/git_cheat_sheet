@@ -1,0 +1,25 @@
+## To browse and inspect the evolution of project files
+
+################
+
+# To list version history for the current branch
+
+$ git log
+
+##############
+
+# To list version history for a file, including renamings
+
+$ git log --follow <file name>
+
+##############
+
+# To show the content differences between two branches
+
+$ git diff <branch no. 1>...<branch no. 2>
+
+#############
+
+# To output metadata and content changes of the specified commits.
+
+$ git show <commit>

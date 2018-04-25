@@ -1,0 +1,29 @@
+## Objective: to name a series of commits
+## and combine completed efforts.
+
+# To list all local branches in the current repository
+$ git branch
+$ git branch --list
+
+#############
+
+# To create a new branch
+$ git branch <branch-name>
+
+# Example
+$ git branch feature/<ticket number>_<ticket title>
+
+############
+
+# To switch to a specified branch and update the working directory
+$ git checkout <branch name>
+
+############
+
+# To combine / merge a specified branch INTO the current branch
+$ git merge -v <branch name>
+
+###########
+
+# CAREFUL: to delete a specified branch
+$ git branch -d <branch name>

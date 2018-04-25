@@ -1,0 +1,21 @@
+## To relocate and remove versioned files
+
+##########################
+
+# To delete the file from the working directory
+# AND stage the deletion
+
+$ git rm <file>
+
+#######################
+
+# To remove a file from the version control
+# BUT preserve the file locally.
+
+$ git rm --cached <file name>
+
+##################
+
+# To rename a file annd prepares it for commit.
+
+$ git mv <src> <dst>

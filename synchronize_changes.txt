@@ -1,0 +1,25 @@
+## TO register a repository bookmark and exchange version history
+
+#############
+
+# To download all history from the repository bookmark
+
+$ git fetch <bookmark>
+
+############
+
+# To combine / merge a bookmark's branch into the current local branch
+
+$ git merge <bookmark>/<branch>
+
+###########
+
+# To upload all local branch commits to origin, e.g. GitHub
+
+$ git push <alias> <branch>
+
+##########
+
+# To download bookmark history and incorporate changes
+
+$ git pull
