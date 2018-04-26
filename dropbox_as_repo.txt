@@ -1,0 +1,51 @@
+## Use your Dropbox storage for private projects.
+
+########
+1) Go into Dropbox directory
+
+$ cd ~/Dropbox
+
+#########
+2) Assuming there is no project directory yet:
+
+$ mkdir ~/Dropbox/git
+
+##########
+3) Create your project here:
+
+~/Dropbox/git $ git init --bare <your_project_name>.git
+
+##########
+4) Return to your development directory
+
+$ cd ~/Sources
+$ mkdir <your_project_name>
+
+##########
+5) Create a project repository here
+
+~/Sources/<your_project_name> $ git init .
+
+##########
+6) Add the origin, pointing to the path in the Dropbox earlier
+
+$ git add origin ~/Dropbox/git/<your_project_name>.git
+
+#########
+7) Stage the changes, e.g.
+
+$ git add <file_0>.txt <file_1>.cpp <file_2>.java <file_3>.py <file_4>.cs .gitignore
+
+##########
+8) Push to the origin
+
+$ git push -u origin master
+
+##########
+9) Start your Dropbox, and stop when done synchronizing.
+
+$ dropbox start
+$ dropbox stop
+
+##########
+10) Enjoy your coffee. Done.

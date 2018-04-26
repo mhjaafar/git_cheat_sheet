@@ -4,6 +4,8 @@
 
 # To temporarily store all modified tracked files.
 # To stash the changes in the DIRTY working directory away.
+# This stores the latest changes into stash: a separate archive.
+
 $ git stash
 
 #############
@@ -23,3 +25,9 @@ $ git stash list
 # To discard the most recently stashed changeset
 
 $ git stash drop
+
+###########
+
+# To delete all the files in stash
+
+$ git stash clear

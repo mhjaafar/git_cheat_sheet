@@ -14,6 +14,10 @@ $ git rm <file>
 
 $ git rm --cached <file name>
 
+# If a folder
+
+$ git rm -r -cached <folder name>
+
 ##################
 
 # To rename a file annd prepares it for commit.
