@@ -1,0 +1,11 @@
+cd ~
+
+touch .bash_profile
+touch .bashrc
+
+###########
+# Then edit the file .bashrc:
+export PATH=$PATH:/c....
+
+###########
+Then add the path above to PATH in Windows Environment Variables.

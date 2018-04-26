@@ -6,7 +6,6 @@ $ git branch
 $ git branch --list
 
 #############
-
 # To create a new branch
 $ git branch <branch-name>
 
@@ -14,16 +13,19 @@ $ git branch <branch-name>
 $ git branch feature/<ticket number>_<ticket title>
 
 ############
-
 # To switch to a specified branch and update the working directory
 $ git checkout <branch name>
 
 ############
-
 # To combine / merge a specified branch INTO the current branch
 $ git merge -v <branch name>
 
 ###########
-
 # CAREFUL: to delete a specified branch
 $ git branch -d <branch name>
+
+###########
+
+# To delete a branch
+
+$ git push origin --delete <branch name>
