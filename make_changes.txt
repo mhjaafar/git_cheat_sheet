@@ -31,3 +31,5 @@ $ git commit -m "<descriptive message>"
 # Example
 $ git commit -m "First commit."
 
+# Multiple-lines commit message
+$ git commit -m "First line." -m "Second line." -m "Third line."
