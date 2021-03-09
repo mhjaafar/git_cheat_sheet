@@ -25,7 +25,25 @@ $ git merge -v <branch name>
 $ git branch -d <branch name>
 
 ###########
-
 # To delete a branch
-
 $ git push origin --delete <branch name>
+
+###########
+# To rename a branch
+
+# Method 1
+# i) Checkout into the branch to be renamed:
+$ git checkout to-be-renamed-branch
+
+# ii) Rename the branch by this command, and done:
+$ git branch -m new-name
+
+# Method 2
+# i) Switch to master branch
+$ git checkout master
+
+# ii) Rename the targeted branch so, done:
+$ git branch -m to-be-renamed-branch new-name
+
+# Verify the status
+$ git branch -a
